@@ -1,6 +1,6 @@
 layout: page
 title: "mappa aerei prob. in uscita"
-permalink: /mappe/aerei_out
+permalink: /mappe/aereiout/
 
 CIAOOOOO
 
