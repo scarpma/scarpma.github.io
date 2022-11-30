@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <head> <!-- this is a comment -->
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <title>scarpma's website</title>
+  </head>
+
+  <body>
+
+    <header>
+      <!-- NAV -->
+      <nav class="navbar page-container">
+        <a class="navlink" href="index.html">Martino A. Scarpolini</a>
+        <ul class="navlist">
+          <li> <a class="navlink" href="#about">About</a></li>
+          <li> <a class="navlink" href="#cv">CV</a></li>
+          <li> <a class="navlink" href="#photos">Photos</a></li>
+          <li> <a class="navlink" href="#contacts">Contacts</a></li>
+          <li> <a class="navlink" href="old.html">Old Homepage</a></li>
+        </ul>
+      </nav>
+
+      <!-- TODO breadcrumbs -->
+
+    </header>
+
+    <script src="script.js"></script>
+
+    <!-- MAIN -->
+    <div class="page-container">
+      <main class="main-article">
+        <article>
+
+          <section id="about">
+            <h1><a href="#about" class="anchor-link">About</a></h1>
+              <p>Martino A. Scarpolini is an Early Stage Researcher at BCL and TechneValue GmbH. He is enrolled in the "<a href="meditate.html">MeDiTATe</a>" programme as a Marie Skłodowska-Curie PhD student. He obtained the Master Degree in Theoretical Physics from the University of Roma “Tor Vergata” in 2020 and started the “MeDiTATe” project in the same year.</p>
+              <p>During his Master thesis, he developed a Generative Adversarial Network for the generation of particle's velocities inside an homogeneous and isotropic turbulent flow. His research interests are focused on physical models, deep learning and computer science. During his career he focused on CFD, turbulence and deep learning.</p>
+              <p>His main research activity deals with the development of a deep learning pipeline for the analysis and segmentation of the ascending thoracic aorta from CTA scans.</p>
+          </section>
+
+          <section id="photos">
+            <h1><a href="#photos" class="anchor-link">Cats are amazing !</a></h1>
+            <p>Let's now talk about cats. I think there's not really much to say if we take a look at these:
+              <div class="image-container">
+                <div class="image"><img src="images/cat-chess.jpg" alt="A cat that plays chess."></div>
+                <div class="image"><img src="images/cat-picasso.jpg" alt="A cat that like to paint."></div>
+              </div>
+            </p>
+          </section>
+
+          <section id="contacts">
+            <h1><a href="#contacts" class="anchor-link">Ok, now let's pretend to be serious</a></h1>
+            <p><strong>Martino</strong> is a <em>very handsome</em> guy, with incredible skills. His favorite movies are the following:</p>
+              <ul>
+                <li>Castaway</li>
+                <li>A star is born</li>
+                <li>Dallas' buyers club</li>
+              </ul>
+              <p>but if we want to be more precise, here the ordering:</p>
+              <ol>
+                <li>Castaway</li>
+                <li>A star is born</li>
+                <li>Dallas' buyers club</li>
+              </ol>
+            </p>
+            <p>Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand! Events are how you make that magic happen on your pages. Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.</p>
+            <p>There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the “on_event_” property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript. Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.</p>
+            <p>We're going to create 3 buttons that all alert “Hello World” when clicked. Try them all out using your own HTML file, or using something like CodePen.</p>
+            <p>Now that we have a handle on manipulating the DOM with JavaScript, the next step is learning how to make that happen dynamically, or on demand! Events are how you make that magic happen on your pages. Events are actions that occur on your webpage such as mouse-clicks or keypresses, and using JavaScript we can make our webpage listen and react to these events.</p>
+            <p>There are three primary ways to go about this: you can attach functions' attributes directly on your HTML elements, you can set the “on_event_” property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript. Event listeners are definitely the preferred method, but you will regularly see the others in use, so we're going to cover all three.</p>
+            <p>We're going to create 3 buttons that all alert “Hello World” when clicked. Try them all out using your own HTML file, or using something like CodePen.</p>
+          </section>
+
+          <section id="cv">
+            <h1><a href="#cv" class="anchor-link">Curriculum Vitae</a></h1> [<a target="_blank" href="PDFs/Curriculum_Martino_Andrea_Scarpolini.pdf">pdf version</a>]
+            <h4>Personal Data</h4>
+              <p>Place and Date of Birth: Roma | 18 May 1997</p>
+              <p>Email: scarpma@gmail.com</p>
+              <p><a href="https://twitter.com/cafomaggio">Twitter</a> <a href="www.linkedin.com/in/martino-andrea-scarpolini-797921177">Linkedin</a></p>
+            <h4>Education</h4>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Current
+                </div>
+                <div class="cvrow_elem_content">
+                  <strong>Early Stage Researcher/Industrial PhD Position in biomechanics</strong>: Clinical image processing and Big Data analysis, within the framework of the project MeDiTATe (The medical digital twin for aneurysm prevention and treatment) funded by the European Union's Horizon 2020. Institutions: Università degli Studi di Roma "Tor Vergata", BioCardioLab Fondazione Toscana Gabriele Monasterio and TechneValue GmbH. Major: development of Deep Learning tools that health care providers can use to gain more insight from their clinical data. Image processing, Mechanical/CFD based Reduced Order Models and Shape Analysis. Supervisors: Mauro Odino from Technevalue GmbH, Simona Celi, PhD from BioCardioLab, Fondazione Toscana G. Monasterio.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  September 2020
+                </div>
+                <div class="cvrow_elem_content">
+                  <strong>Master's Degree in Theoretical Physics, Statistical Mechanics. 110/110, with honors.</strong> Institution: Università degli Studi di Roma “Tor Vergata”, Roma Major: Computational Physics, Statistical Mechanics and Fluid Dynamics. Thesis: “Deep Learning and Generative Adversarial Network application on Lagrangian properties of Turbulence”. Advisors: Prof. Luca Biferale, Dr. Michele Buzzicotti.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  October 2018
+                </div>
+                <div class="cvrow_elem_content">
+                  <strong>Bachelor's Degree in Physics, 110/110, with honors.</strong> Instituion: Università degli Studi di Roma “Tor Vergata”, Roma Thesis: “Particles Dispersion in Rotating Turbolent Fluid” (see after). Advisor: Prof. Luca Biferale.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  July 2015
+                </div>
+                <div class="cvrow_elem_content">
+                  Liceo Scientifico “Leonardo Murialdo”, Albano Laziale. Final Grade: 98/100.
+                </div>
+              </div>
+            <h4>Scholarships and Certificates</h4>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  June 2021
+                </div>
+                <div class="cvrow_elem_content">
+                  PRACE training course “High-performance computing with Python” held as an online event (four days) at Jülich Supercomputing Centre (JSC) at Forschungszentrum Jülich.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  April 2021
+                </div>
+                <div class="cvrow_elem_content">
+                  Course on “Programming paradigm for GPU devices held by CINECA (three days). 
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  March 2021
+                </div>
+                <div class="cvrow_elem_content">
+                  Course on “Introduction to Parallel Computing with MPI and OpenMP” held by CINECA (three days).
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  March 2020
+                </div>
+                <div class="cvrow_elem_content">
+                  Stage with Prof. Luca Biferale and Dr. Michele Buzzicotti focused on "Development of Deep Neural Networks (DNN) for Lorenz Dynamical system Parameters Recognition". Major: Development of a DNN able to recognize parameters of a dynamical system from a single solution.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  September 2019
+                </div>
+                <div class="cvrow_elem_content">
+                  Course on "Introduction to Scientific and Technical Computing in C", at CINECA offices, Roma.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  February 2019
+                </div>
+                <div class="cvrow_elem_content">
+                  Course on "Introduction to Machine Learning", at Università degli Studi di Roma "Tor Vergata", Roma. Major: Clustering and Neural Networks. Languages: Python and R.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  August 2018
+                </div>
+                <div class="cvrow_elem_content">
+                  Bachelor's Thesis Work at Tor Vergata Physics Department, Roma (three months). Advisor: Prof. Luca Biferale. Major: Big data analysis from High Performance Direct Nu- merical Simulation of Navier-Stokes equations for geophysical application to turbulent flows under rotation. Languages used : Python (analysis) and C (simulations).
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  March 2015
+                </div>
+                <div class="cvrow_elem_content">
+                  11th International Masterclasses hands on Particle Physics at INFN - Laboratori Nazionali di Frascati.
+                </div>
+              </div>
+            <h4>Languages</h4>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  English
+                </div>
+                <div class="cvrow_elem_content">
+                  Intermediate level in general, Advanced level in technical issues.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Italian
+                </div>
+                <div class="cvrow_elem_content">
+                  Mothertongue.
+                </div>
+              </div>
+            <h4>Computer Skills</h4>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Intermediate Knowledge
+                </div>
+                <div class="cvrow_elem_content">
+                  TensorFlow, Linux systems, C, bash, zsh, openMP.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Advanced Knowledge
+                </div>
+                <div class="cvrow_elem_content">
+                  Python, Fortran, Pytorch, Paraview.
+                </div>
+              </div>
+            <h4>Interest and Activities</h4>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Generic
+                </div>
+                <div class="cvrow_elem_content">
+                  Numerical simulations, Data Analysis, Machine Learning, Deep Learning, Programming, Physics, Computational Geometry, Technology, Climbing.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  AI
+                </div>
+                <div class="cvrow_elem_content">
+                  Deep Learning, Reinforcment Learning, Generative Adversarial Networks, graph deep learning.
+                </div>
+              </div>
+              <div class="cvrow">
+                <div class="cvrow_elem_title">
+                  Physics
+                </div>
+                <div class="cvrow_elem_content">
+                  Fluid Dynamics, Turbulence, CFD, Statistical Mechanics, Molecular Dynamics, Chaos Theory...
+                </div>
+              </div>
+          </section>
+        </article>
+      </main>
+      <aside>
+        <div class="sticky-top">
+          <h1 class="anchor-link">Contents</h1>
+          <ul class="contents-list">
+            <li> <a class="navlink" href="#about">About</a></li>
+            <li> <a class="navlink" href="#cv">Curriculum Vitae</a></li>
+            <li> <a class="navlink" href="#photos">Photos</a></li>
+            <li> <a class="navlink" href="#contacts">Contacts</a></li>
+            <li> <a class="navlink" href="old.html">Old Homepage</a></li>
+          </ul>
+
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="page-container">
+        <a class="navlink footer-content" href="index.html">Martino A. Scarpolini</a>
+        <p>Copyright Scarpolini 2023</p>
+      </div>
+    </footer>
+
+  </body>
+
+
+
+</html>
